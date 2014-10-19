@@ -8,8 +8,13 @@
 		<h1>ios.uno</h1>
 		<h3>One great iOS article every day.</h3>
 
-		<form class="signup-form" name="signup">
-			<label for="email"></label><input type="text" name="email" id="email" placeholder="my@email.com" />
+		<form action="http://blogitech.us1.list-manage.com/subscribe/post" method="POST" class="signup-form" name="signup">
+			<!-- Mailchimp Setup -->
+			<input type="hidden" name="u" value="3033daba049d386413bf6b843">
+			<input type="hidden" name="id" value="4e60f7a87b">
+
+			<label for="email"></label>
+			<input type="email" autocapitalize="off" autocorrect="off" name="MERGE0" id="MERGE0" size="20" value="" placeholder="my@email.com" >
 			<input type="submit" value="" />
 		</form>
 	</div>	

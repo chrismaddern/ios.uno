@@ -30,7 +30,7 @@ h3 {
 	font-size:2em;
 }
 
-.signup-form input[type="text"] {
+.signup-form input[type="email"] {
 	font-size:2em;
 	text-align:center;
 	border:1px solid #dedede;
